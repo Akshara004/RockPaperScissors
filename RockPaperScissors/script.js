@@ -9,8 +9,10 @@ const reset= document.querySelector("#btn");
 
 
 const resetGame=()=>{
-    userScoreMsg.innerText=0;
-    compScoreMsg.innerText=0;
+    userScore=0;
+    compScore= 0;
+    userScoreMsg.innerText=userScore;
+    compScoreMsg.innerText=compScore;
     msg.innerText="Play your move."
     msg.style.backgroundColor="white";
     msg.style.color="black";
